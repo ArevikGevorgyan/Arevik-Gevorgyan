@@ -1,50 +1,5 @@
-5.teriiiiii
-
-let a=+prompt()
-let b=+prompt()
-if (a%b=0 || b%a=0) {
-    console.log("1")
-}  else {
-    console.log("0")
-}
-
-Kam
-
-let a=+prompt()
-let b=+prompt()
-a%b=0 || b%a=0 ? console.log("1") : console.log("0")
-
-bayc errora talis
-
-
-
-
-6.-----
-
-let a=+prompt()
-switch (a) {
-    case a=2: {
-        console.log("February")
-        break;
-    }
-        case a=4: {
-        console.log("April")
-        break;
-    }
-        case a=11: {
-        console.log("November")
-        break;
-    }
-}
-
-
-
-4.
-
-let a=+prompt()
-a<0 ? console.log("yes") : console.log("no")
-
-
+// Arevik Gevorgyan
+// Homework 1
 
 1.
 var a=14
@@ -88,6 +43,63 @@ a/b
 a%b
 1
 
+
+
+2.
+//chi stacvel ((
+
+let a=prompt('print your name')
+let b=+prompt('print your age')
+console.log('My name is a', 'i am b')
+
+
+
+
+3.
+let a=+prompt()
+ if (a%2 !=0) {
+    console.log("yes")
+}  else {
+    console.log("no")
+}
+
+
+4.
+let a=+prompt()
+a<0 ? console.log("yes") : console.log("no")
+
+
+5.
+let a=+prompt()
+let b=+prompt()
+ if (a%b==0 || b%a==0) {
+    console.log("1")
+}  else {
+    console.log("0")
+}
+
+
+
+6.
+
+let a=+prompt()
+switch (a) {
+    case a=2: {
+        console.log("February")
+        break;
+    }
+        case a=4: {
+        console.log("April")
+        break;
+    }
+        case a=11: {
+        console.log("November")
+        break;
+    }
+}
+
+
+
 7.
 let a=+prompt()
 let b=+prompt()
@@ -100,4 +112,3 @@ if(a>b && a>c) {
     }  else if (c>a && c>b) {  
         console.log("c is maximum")
     }
-
